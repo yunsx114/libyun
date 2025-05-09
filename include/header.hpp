@@ -335,7 +335,7 @@ YUN_EXPORT void filter2D(Mat& dst, const Mat& src, const Kernel& kernel);
 YUN_EXPORT void filter2D(Mat& dst, const Mat& src, int type,size_t size = 3);
 
 
-YUN_EXPORT Mat ROI(const Mat&src, int x1,int x2, int y1, int y2);
+YUN_EXPORT Mat ROI(const Mat&src, size_t x1,size_t x2, size_t y1, size_t y2);
 YUN_EXPORT Mat rescale(Mat&src, size_t new_width, size_t new_height);
 YUN_EXPORT Mat scaleLarger(Mat&src, size_t new_width, size_t new_height);
 YUN_EXPORT Mat scaleSmaller(Mat&src, size_t new_width, size_t new_height);
